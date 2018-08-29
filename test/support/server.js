@@ -5,7 +5,7 @@ var http = require('http');
 var session = require('koa-sess');
 var githubAuth = require('../../');
 
-var app = koa();
+var app = new koa();
 
 app.name = 'nae-web';
 app.keys = ['key1', 'key2'];
